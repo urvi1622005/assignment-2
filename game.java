@@ -1,19 +1,17 @@
+import java.lang.*;
+import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 public class game {
-    /**
-     * The main method is the entry point for the game.
-     * 
-     * It takes in an array of strings as arguments, which are the command line
-     * arguments passed in when the program is run. The arguments are not used in
-     * this program.
-     */
-    public static void main(String[]args){
-
-        System.out.println("Hello World");
+    public static void main(String[] args) throws IOException {
         
-        
+        //your code goes here
+        BufferedReader reader =new BufferedReader(new InputStreamReader(System.in));
+        int Read = Integer.parseInt(reader.readLine());
+        BufferedReader reade =new BufferedReader(new InputStreamReader(System.in));
+        int Reade = Integer.parseInt(reader.readLine());
 
-        
-
+        System.out.print(Read);
     }
-    
 }
